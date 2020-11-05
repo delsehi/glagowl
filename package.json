@@ -4,7 +4,7 @@
   "description": "A web-based keyboard for writing unicode Glagolitic script. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "keywords": [
     "glagolitic",
@@ -12,5 +12,6 @@
     "keyboard"
   ],
   "author": "Delfi Sehidic",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
