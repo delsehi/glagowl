@@ -1,9 +1,9 @@
 :root {
-  --highlight: #AB2346;
-  --primary: #C9DAEA;
-  --third: #33658A;
-  --second: #00B295;
-  --dark: #191516;
+  --highlight: #AB2346; /* Red */
+  --primary: #C9DAEA; /* Grey */
+  --third: #33658A; /* Queen Blue */
+  --second: #00B295; /* Jungle Green */
+  --dark: #191516; /* Smoky Black */
 }
 
 
