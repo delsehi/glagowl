@@ -1,21 +1,53 @@
+:root {
+  --highlight: #ff7f2a;
+  --primary: #e0ea6c;
+  --second: #73965d;
+  --third: #315647;
+  --dark: #071f33;
+}
+
+
 .wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 body {
-  background-color: grey;
+  background-color: var(--primary);
+  padding: 0;
+  margin: 0;
 }
 
-#result, #inputBox {
+.logo {
+  height: 5rem;
+  margin-right: 1rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--second);
+  padding: 1rem;
+  font-family: Impact;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  min-width: 20rem;
+  min-height: 5rem;
+  max-width: 50rem;
+  font-family: sans-serif;
+  background-color: white;
   font-size: 2rem;
   text-align: center;
-  border: 5px solid;
   padding: 1rem;
   margin: 1rem;
-  background-color: snow;
-  border-radius: 2rem;
-
+  text-overflow: ellipsis;
+  overflow: scroll;
 }
