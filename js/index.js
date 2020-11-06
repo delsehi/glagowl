@@ -39,9 +39,9 @@ function isUpperCase(char) {
 }
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/glagowl/sw.js')
+  navigator.serviceWorker.register('/sw.js')
   .then((reg) => {
-    console.log('Registered.')
+    console.log('Registered. Scope: ' + reg.scope)
   }).catch((error) => {
     console.log("Registration of service worker failed." + error)
   })

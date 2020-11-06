@@ -1,4 +1,3 @@
-
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('v1').then((cache) => {
@@ -8,7 +7,9 @@ self.addEventListener('install', (e) => {
       './index.js',
       './css/master.css'
     ])
-    })
+  }).catch(error) {
+    console.log(error)
+  }
   )
 })
 
