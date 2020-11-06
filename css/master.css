@@ -1,9 +1,9 @@
 :root {
-  --highlight: #3B3355;
-  --primary: #FEFCFD;
-  --third: #bfcde0;
-  --second: #5D5D81;
-  --dark: #000505;
+  --highlight: #AB2346;
+  --primary: #C9DAEA;
+  --third: #33658A;
+  --second: #00B295;
+  --dark: #191516;
 }
 
 
@@ -31,7 +31,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-color: var(--highlight);
+  background-color: var(--dark);
   padding: 1rem;
   font-family: Impact;
   color: var(--primary);
@@ -43,14 +43,15 @@ main {
   justify-content: center;
 }
 .boxes {
-  background-color: var(--second);
+  background-color: var(--third);
   height: 100%;
   padding: 1rem;
   min-height: 15rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .box {
-  background-color: var(--third);
+  background-color: var(--primary);
   resize: none;
   min-width: 20rem;
   min-height: 5rem;
