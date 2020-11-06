@@ -2,8 +2,8 @@
   "name": "GlagOwl: Glagolitic text conversion",
   "short_name": "GlagOwl",
   "description": "Convert Latin text to Glagolitic Unicode!",
-  "start_url": "/glagowl/",
-  "scope": "/glagowl/",
+  "start_url": "https://delsehi.github.io/glagowl/",
+  "scope": "/",
   "icons": [
     {
       "src": "./icons/glagowl.png",
