@@ -3,10 +3,10 @@ self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('v1').then((cache) => {
     return cache.addAll([
-      '/',
-      '/icons/glagowl.png',
-      '/index.js',
-      '/css/master.css'
+      './',
+      './icons/glagowl.png',
+      './index.js',
+      './css/master.css'
     ])
     })
   )
