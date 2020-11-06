@@ -1,9 +1,9 @@
 :root {
-  --highlight: #ff7f2a;
-  --primary: #e0ea6c;
-  --second: #73965d;
-  --third: #315647;
-  --dark: #071f33;
+  --highlight: #3B3355;
+  --primary: #FEFCFD;
+  --third: #bfcde0;
+  --second: #5D5D81;
+  --dark: #000505;
 }
 
 
@@ -14,6 +14,7 @@
   padding: 0;
   margin: 0;
   text-align: center;
+  color: var(--dark)
 }
 body {
   background-color: var(--primary);
@@ -28,26 +29,35 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-color: var(--second);
+  background-color: var(--highlight);
   padding: 1rem;
   font-family: Impact;
+  color: var(--primary);
 }
+
 main {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+.boxes {
+  background-color: var(--second);
+  height: 100%;
+  padding: 1rem;
+  min-height: 15rem;
+}
 
 .box {
+  background-color: var(--third);
+  resize: none;
   min-width: 20rem;
   min-height: 5rem;
   max-width: 50rem;
+  max-height: 20rem;
   font-family: sans-serif;
-  background-color: white;
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
   margin: 1rem;
-  text-overflow: ellipsis;
   overflow: scroll;
 }
