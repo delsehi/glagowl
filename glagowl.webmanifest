@@ -3,7 +3,7 @@
   "short_name": "GlagOwl",
   "description": "Convert Latin text to Glagolitic Unicode!",
   "start_url": "/glagowl/",
-  "scope": "/glagowl/"
+  "scope": "/glagowl/",
   "icons": [
     {
       "src": "./icons/glagowl.png",
