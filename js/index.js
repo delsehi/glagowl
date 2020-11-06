@@ -11,18 +11,22 @@ inputBox.addEventListener('input', convert)
 function convert(e) {
   const input = e.target.value
   const translation = getGlagolitic(input)
-  if (map.has(e.data)) {
-    console.log(map.get(e.data))
-  }
   result.textContent = translation
 }
 
 function getGlagolitic(input) {
-  console.log(input)
   let newString = ""
   for (let i = 0; i < input.length; i++) {
-    if (map.has(input.charAt(i))) {
-      newString += map.get(input.charAt(i))
+    let oldLetter = input.charAt(i)
+    const upperCase = isUpperCase(oldLetter)
+    oldLetter = oldLetter.toLowerCase()
+    if (map.has(oldLetter)) {
+      const newLetter = map.get(oldLetter)
+      if (upperCase) {
+        newString += newLetter.toUpperCase()
+      } else {
+        newString += newLetter
+      }
 
     } else {
       newString += input.charAt(i)
@@ -31,7 +35,13 @@ function getGlagolitic(input) {
   return newString
 }
 
+function isUpperCase(char) {
+  return char == char.toUpperCase() && char != char.toLowerCase()
+}
+
 
 const map = new Map([
-  ['a', 'A'], ['b', 'Bz'], ['c','DDDDX'], ['d','OK']
+  ['a', 'ⰰ'], ['b', 'ⰱ'], ['c','kk'], ['d','ⰴ'], ['', ''],['', ''],
+  ['', ''], ['', ''], ['', ''], ['', ''], ['', ''], ['', ''], ['', ''],
+  ['', ''], ['', ''], ['', ''], ['', ''], ['', ''], ['', ''], ['', '']
 ])
