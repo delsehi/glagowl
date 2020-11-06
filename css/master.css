@@ -6,12 +6,16 @@
   text-align: center;
 }
 body {
-  background-color: snow;
+  background-color: grey;
 }
 
 #result, #inputBox {
+  font-size: 2rem;
   text-align: center;
   border: 5px solid;
   padding: 1rem;
   margin: 1rem;
+  background-color: snow;
+  border-radius: 2rem;
+
 }
