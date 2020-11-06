@@ -25,6 +25,8 @@ body {
 .logo {
   height: 5rem;
   margin-right: 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 1px var(--dark);
 }
 header {
   display: flex;

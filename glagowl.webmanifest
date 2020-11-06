@@ -4,11 +4,10 @@
   "description": "Convert Latin text to Glagolitic Unicode!",
   "icons": [
     {
-      "src": "./icons/icon.svg",
-      "size": "96x96",
-      "type": "image/svg"
-
-    }
+      "src": "./icons/glagowl.png",
+      "size": "512x512",
+      "type": "image/png"
+    },
   ],
   "display": "fullscreen"
 }
