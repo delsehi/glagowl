@@ -1,0 +1,14 @@
+{
+  "name": "GlagOwl: Glagolitic text conversion",
+  "short_name": "GlagOwl",
+  "description": "Convert Latin text to Glagolitic Unicode!",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "size": "96x96",
+      "type": "image/svg"
+
+    }
+  ],
+  "display": "fullscreen"
+}

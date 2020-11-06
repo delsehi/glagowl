@@ -1,3 +1,3 @@
-# Glagolitic Keyboard and Converter
+# GlagOwl 
 
-A simple web app for writing latin characters and converting them to glagolitic unicode characters. 
+A simple web app for writing Latin characters and converting them to Glagolitic Unicode characters.
