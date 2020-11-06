@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+}
+body {
+  background-color: snow;
+}
+
+#result, #inputBox {
+  text-align: center;
+  border: 5px solid;
+  padding: 1rem;
+  margin: 1rem;
+}
