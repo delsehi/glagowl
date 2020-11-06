@@ -39,7 +39,7 @@ function isUpperCase(char) {
 }
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/glagowl/sw.js'r)
+  navigator.serviceWorker.register('/glagowl/sw.js')
   .then((reg) => {
     console.log('Registered.')
   }).catch((error) => {
