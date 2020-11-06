@@ -7,7 +7,7 @@
       "src": "./icons/glagowl.png",
       "size": "512x512",
       "type": "image/png"
-    },
+    }
   ],
   "display": "fullscreen"
 }
