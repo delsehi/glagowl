@@ -38,6 +38,15 @@ function isUpperCase(char) {
   return char == char.toUpperCase() && char != char.toLowerCase()
 }
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', {scope: '/'})
+  .then((reg) => {
+    console.log('Registered.')
+  }).catch((error) => {
+    console.log("Registration of service worker failed." + error)
+  })
+}
+
 
 const map = new Map([
   ['a', 'ⰰ'], ['b', 'ⰱ'], ['v','ⰲ'], ['g','ⰳ'], ['d', 'ⰴ'],['e', 'ⰵ'],
