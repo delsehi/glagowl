@@ -2,10 +2,15 @@
   "name": "GlagOwl: Glagolitic text conversion",
   "short_name": "GlagOwl",
   "description": "Convert Latin text to Glagolitic Unicode!",
+  "start_url": "/",
   "icons": [
     {
       "src": "./icons/glagowl.png",
-      "size": "512x512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }, {
+      "src": "./icons/glagowl2.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
