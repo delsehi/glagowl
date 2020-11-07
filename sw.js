@@ -7,9 +7,7 @@ self.addEventListener('install', (e) => {
       './index.js',
       './css/master.css'
     ])
-  }).catch(error) {
-    console.log(error)
-  }
+  })
   )
 })
 
