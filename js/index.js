@@ -3,15 +3,16 @@
 *
 */
 'use strict'
-const inputBox = document.getElementById('inputBox')
 const result = document.getElementById('result')
 
-inputBox.addEventListener('input', convert)
+result.addEventListener('input', convert)
 
 function convert(e) {
   const input = e.target.value
+  console.log(input)
   const translation = getGlagolitic(input)
-  result.textContent = translation
+  console.log(translation)
+  result.value = translation
 }
 
 function getGlagolitic(input) {

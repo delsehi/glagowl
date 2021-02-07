@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>GlagOwl</title>
-    <link rel="stylesheet" href="./css/master.css">
-    <link rel="manifest" href="./glagowl.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-<div class="wrapper">
-  <header>
-    <img src="./icons/glagowl.png" alt="Logo" class="logo">
-    <h1>GlagOwl</h1>
-  </header>
-  <main>
-    <div class="boxes">
-      <h2>Result</h2>
-      <div id="result" class="box">Glagolitic text will appear here.</div>
-      <h2>Input</h2>
-      <textarea type="textarea" placeholder="Type here." class="box" id="inputBox">
-        </textarea>
-    </div>
-    </div>
-  </main>
 
+<head>
+  <meta charset="utf-8">
+  <title>GlagOwl</title>
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="manifest" href="./glagowl.webmanifest">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <script src="./js/index.js" charset="utf-8"></script>
-  </body>
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="./icons/glagowl.png" alt="Logo" class="logo">
+      <h1>GlagOwl</h1>
+    </header>
+    <main>
+      <div class="boxes">
+        <input type="text" placeholder="Type here." class="box" id="result">
+      </div>
+
+    </main>
+    <footer><a href="https://sehidic.eu">By Delfi Šehidić</a>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </div>
+</body>
+
 </html>
